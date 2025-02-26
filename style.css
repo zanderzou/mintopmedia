@@ -109,3 +109,36 @@ nav a {
     font-size: 14px;
     color: #666;
 }
+
+/* 关于我们 */
+#about {
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* 科技蓝渐变 */
+    color: white;
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* 适配小屏幕 */
+}
+.about-text {
+    width: 60%;
+    text-align: left;
+}
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+.about-image {
+    width: 35%;
+}
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* 科技感阴影 */
+}
