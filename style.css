@@ -80,3 +80,32 @@ nav a {
     width: 300px;
     margin-top: 20px;
 }
+
+/* 广告投放 */
+#main-business {
+    padding: 50px;
+    text-align: center;
+    background: #e9ecef; /* 浅灰背景，区分其他模块 */
+}
+.business-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* 适配小屏幕 */
+}
+.business-item {
+    width: 18%; /* 五列布局，每项占 18% */
+    margin: 10px;
+}
+.business-item img {
+    width: 60px; /* 图标稍大一点 */
+    height: 60px;
+    object-fit: contain;
+}
+.business-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.business-item p {
+    font-size: 14px;
+    color: #666;
+}
