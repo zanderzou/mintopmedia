@@ -142,3 +142,32 @@ nav a {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* 科技感阴影 */
 }
+
+/* 页脚 */
+footer {
+    background: #1e3c72; /* 深蓝，跟 #about 呼应 */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-content p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+.footer-content a {
+    color: #66b3ff; /* 浅蓝链接 */
+    text-decoration: none;
+}
+.footer-content a:hover {
+    text-decoration: underline;
+}
+.social-links {
+    margin-top: 10px;
+}
+.social-links a {
+    margin: 0 10px;
+}
